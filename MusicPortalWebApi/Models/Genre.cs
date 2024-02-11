@@ -1,0 +1,8 @@
+﻿namespace MusicPortalWebApi.Models
+{
+    public class Genre
+    {
+        public int Id { get; set; }
+        public string? Genre_name { get; set; }
+    }
+}
