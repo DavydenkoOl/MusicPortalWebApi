@@ -16,11 +16,18 @@
 <body >
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow" style="margin-bottom:0">
         <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="MusicClips" asp-action="Index" asp-route-id="@firstName" style="font-size:24px;font-weight:bold;color:#00ff00">MusicClub</a>
-           
-            <span class="navbar-brand" style="color:#00ff00"> Администратор</span>
-            <a class="navbar-brand" asp-area="" asp-controller="Account" asp-action="LogOut" style="color:#00ff00">Главная</a>
+            <a class="navbar-brand" asp-area="" asp-controller="MusicClips" asp-action="Index"  style="font-size:24px;font-weight:bold;color:#00ff00">MusicClub</a>
 
+            <span class="navbar-brand" style="color:#00ff00"> Администратор</span>
+            <!--<a class="navbar-brand" asp-area="" asp-controller="Account" asp-action="LogOut" style="color:#00ff00">Главная</a>-->
+           
+            <select style="width:auto;" name="lang" class="form-control">
+                <option value="ru">Русский - рус</option>
+                <option value="en">English - eng</option>
+                <option value="uk">Українська - укр</option>
+                
+            </select>
+           
         </div>
     </nav>
     <div id="index_body" >

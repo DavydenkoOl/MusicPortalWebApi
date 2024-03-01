@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MusicPortalWebApi.Filters;
 using MusicPortalWebApi.Models;
 using System.Collections;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace MusicPortalWebApi.Controllers
 {
+    [Culture]
     [ApiController]
     [Route("api/account")]
     public class AccountController : Controller
